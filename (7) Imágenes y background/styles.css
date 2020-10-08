@@ -1,0 +1,9 @@
+#logo {
+    background-image: url(logo.png);
+}
+#madrid {
+    background-image: url(madrid.jpg);
+}
+body {
+    background-image: url("madrid.jpg");
+  }
