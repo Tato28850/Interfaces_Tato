@@ -1,11 +1,13 @@
 #clara {
     background-image: url(logo.png);
-    overflow: scroll;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     box-shadow: 10px 10px 5px;
 }
 
 body {
     background-image: url("madrid.jpg");
+    background-repeat: no-repeat;
+    background-position: center top ;
+    
   }
