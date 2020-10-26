@@ -1,0 +1,14 @@
+.flex-contenedor {
+    background-color: turquoise;  
+    width: 50%;
+}
+.flex-contenedor > div {
+    background-color: #dd4b1f;
+    width: 6rem;
+    margin: 0.7rem;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 30px;
+    color: antiquewhite;
+    flex-direction: row; 
+  }
