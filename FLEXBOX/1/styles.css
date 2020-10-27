@@ -1,14 +1,23 @@
 .flex-contenedor {
+    align-items: flex-end;
+    display: flex;
     background-color: turquoise;  
-    width: 50%;
+    width: 60%;
+    height: 70px;
+    margin-bottom: 0.5em;
 }
 .flex-contenedor > div {
     background-color: #dd4b1f;
     width: 6rem;
-    margin: 0.7rem;
+    margin: 0 0.7rem;
     text-align: center;
-    line-height: 5rem;
-    font-size: 30px;
+    font-size: 20px;
     color: antiquewhite;
     flex-direction: row; 
-  }
+}
+#contenedor1 > div{
+    width:  30%;
+}
+#contenedor2{
+    flex-direction: row-reverse;
+}
