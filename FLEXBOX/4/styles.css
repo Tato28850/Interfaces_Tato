@@ -1,25 +1,25 @@
 .flex-contenedor {
-    align-items: flex-end;
     display: flex;
-    background-color: turquoise;  
-    width: 60%;
+    background-color: grey;  
+    width: 100%;
     height: 70px;
     margin-bottom: 0.5em;
+    flex-grow: 1;
+    border:3px solid aquamarine;
 }
 .flex-contenedor > div {
     background-color: #dd4b1f;
     width: 6rem;
+    height: 2rem;
     margin: 0 0.7rem;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
     color: antiquewhite;
     flex-direction: row; 
 }
-#contenedor1 > div{
-    justify-content: space-between;
-    width:  30%;
+#contenedor1{
+    align-items: flex-end;
 }
-#contenedor2{
-    justify-content: space-around;
-    flex-direction: row-reverse;
+#contenedor3{
+    align-items:center;
 }
