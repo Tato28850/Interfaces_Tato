@@ -23,3 +23,6 @@
 #contenedor3{
     align-items:center;
 }
+.flex-contenedor div:nth-child(3){
+
+}
