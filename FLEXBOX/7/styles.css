@@ -32,7 +32,6 @@
     background-color: white;
 }
 #contenedor3{
-    flex-wrap: nowrap;
     display: flex;
     justify-content: space-around;
     color: white;
