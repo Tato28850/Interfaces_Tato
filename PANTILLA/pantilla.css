@@ -1,0 +1,44 @@
+*{
+    border: 1px solid black;
+}
+html{
+    border: 1px solid black;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    min-height: 100%;
+    background-image: url(img/dummy-img.png);
+    background-size:cover ;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    width: 70%;
+    min-height: 100%;
+      
+}
+.listaplatos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    width: 85%;
+    height: 70em;
+    border: 1px solid black;
+}
+.plato > div{
+    width: 100%;
+    height: 60%;
+}
+.plato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 23%;
+    height: 50%;
+    border: 1px solid black;
+
+}
