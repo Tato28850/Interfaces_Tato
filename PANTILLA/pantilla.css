@@ -2,7 +2,6 @@
     border: 1px solid black;
 }
 html{
-    border: 1px solid black;
     display: flex;
     justify-content:center;
     width: 100%;
@@ -15,7 +14,6 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: white;
-    border: 1px solid black;
     display: flex;
     width: 70%;
     min-height: 100%;
@@ -27,11 +25,16 @@ body{
     display: flex;
     width: 85%;
     height: 70em;
-    border: 1px solid black;
 }
 .plato > div{
     width: 100%;
     height: 60%;
+}
+.plato > h4{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #1A6692;
+    margin-bottom: 15px;
 }
 .plato{
     display: flex;
@@ -39,6 +42,8 @@ body{
     justify-content:center;
     width: 23%;
     height: 50%;
-    border: 1px solid black;
-
+}
+.precio{
+    color: #2F956D;
+    font-size: 1.25rem;
 }
