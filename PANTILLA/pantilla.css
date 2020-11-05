@@ -21,12 +21,22 @@ body{
       
 }
 #cabecera{
+    flex-direction:row;
+    align-items: baseline;
+    width: 100%;
     background-image:url(img/simple-house-01.jpg);
     color: white; 
 }
 .welcometext, .plato > p{
     color:rgb(88, 88, 88);    
 }
+.welcometext{
+    position: relative; 
+}
+.welcome , .welcometext{
+    text-align: center;
+}
+
 .listaplatos{
     justify-content: space-between;
     flex-wrap: wrap;
