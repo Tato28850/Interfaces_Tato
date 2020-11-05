@@ -1,4 +1,5 @@
 *{
+    font-family: 'Open Sans', Arial, sans-serif;
     border: 1px solid black;
 }
 html{
@@ -18,6 +19,13 @@ body{
     width: 70%;
     min-height: 100%;
       
+}
+#cabecera{
+    background-image:url(img/simple-house-01.jpg);
+    color: white; 
+}
+.welcometext, .plato > p{
+    color:rgb(88, 88, 88);    
 }
 .listaplatos{
     justify-content: space-between;
