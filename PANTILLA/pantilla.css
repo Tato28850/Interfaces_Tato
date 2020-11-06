@@ -21,12 +21,26 @@ body{
       
 }
 #cabecera{
+    display: flex;
     flex-direction:row;
-    align-items: baseline;
+    align-items: flex-end;
+    justify-content:space-between;
     width: 100%;
+    height: 25em;
     background-image:url(img/simple-house-01.jpg);
     color: white; 
 }
+#menu , #logo{
+    margin: 2em;
+}
+
+#logo{
+    flex-direction:row;
+    width: 30%;
+    display: flex;
+    justify-content:space-between;
+}
+
 .welcometext, .plato > p{
     color:rgb(88, 88, 88);    
 }
@@ -42,16 +56,20 @@ body{
     flex-wrap: wrap;
     display: flex;
     width: 85%;
-    height: 70em;
+    height: 55em;
+}
+.plato >div> img {
+    max-width: 100%;
+    object-fit:contain;
 }
 .plato > div{
     width: 100%;
     height: 60%;
 }
-.plato > h4{
+.plato >div > h4{
     font-size: 1.3rem;
     font-weight: 400;
-    color: #1A6692;
+    color: #1b6894;
     margin-bottom: 15px;
 }
 .plato{
@@ -59,9 +77,9 @@ body{
     flex-wrap: wrap;
     justify-content:center;
     width: 23%;
-    height: 50%;
+    height: 40%;
 }
 .precio{
-    color: #2F956D;
+    color: #2f956cf5;
     font-size: 1.25rem;
 }
