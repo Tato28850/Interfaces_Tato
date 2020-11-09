@@ -1,6 +1,5 @@
 *{
     font-family: 'Open Sans', Arial, sans-serif;
-    border: 1px solid black;
 }
 html{
     display: flex;
@@ -39,13 +38,64 @@ body{
     width: 30%;
     display: flex;
     justify-content:space-between;
+    align-items: center;
 }
 
 .welcometext, .plato > p{
     color:rgb(88, 88, 88);    
 }
 .welcometext{
+    width: 600px;
     position: relative; 
+}
+.menu{
+    list-style: none;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+#menu>ul>li>.link-active{
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+#menu>#vinculos-cabezera>.menu a:hover{
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+#menu>ul>li>a{
+    color: white;  
+    text-decoration: none;  
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-plato a:link, .menu-plato a:visited {
+    background-color: white;
+    color:#207754;
+    border: 2px solid#207754;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#vinculos-menu{
+    width:26em;
+}
+.menu-plato{
+    width: 7em;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+.menu-plato a:hover, .menu-plato a:active {
+    background-color: #207754;
+    color: white;
+}
+#vinculos-menu-ul>.menu-plato>.link-active2 {
+    background-color: #207754;
+    color: white;
 }
 .welcome , .welcometext{
     text-align: center;
@@ -81,5 +131,6 @@ body{
 }
 .precio{
     color: #2f956cf5;
-    font-size: 1.25rem;
+    font-size: 1.25em;
+    font-weight: 500;
 }
