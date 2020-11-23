@@ -4,9 +4,11 @@ body{
 }
 
 div.container{
-  margin: 0 auto;	
+  margin: 0 auto;
   font-size: 16px;
-  max-width: 1024px;  
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;  
 }
 
 div.container nav {
@@ -30,8 +32,25 @@ div.container article {
 
 div.container aside {
   width: 30%;
+  height:fit-content;
   background-color: red;
   padding: 1em;
   font-size: 1em;
   box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+  div.container article {
+  height: 25rem;
+  background-image:url(img/content-is-like-water-3.jpg);
+  }
+}
+@media screen and (max-width: 240px) {
+  div.container article {
+  background-image:url(img/content-is-like-water-1.jpg);
+  height: 12.5rem;
+  flex: 100%;
+  }
+  div.container aside{
+    flex: 100;
+  }
 }
