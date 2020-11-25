@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr ;
+    width: 60%;
+    grid-auto-rows: 1fr; 
+    height: 25rem;
+    /*grid-gap: 0.5rem;  ¿obsoleto? recomienda gap que puede tener 2 parametros (col , row)*/
+    gap: 0.5rem;
+}
+div.grid div{
+    border: 1px solid black;
+}
+.a {
+    background-color: #aaa;
+}
+.b {
+    background-color:rgb(255, 217, 0);
+}
