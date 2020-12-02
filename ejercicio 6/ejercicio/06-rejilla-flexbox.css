@@ -6,6 +6,8 @@ div {
     padding: 0.5em;
     margin: 0.5em;
     text-align: center;
+    display: grid;
+    
 }
 .element {
     border: 10px solid green;
@@ -23,3 +25,31 @@ div {
     padding: 0.5em;
     margin: 0.5em;
 }
+
+@media screen and (min-width: 768px) {
+    .row {
+        grid-template-columns: 1fr 1fr;  
+    }
+    .element{
+        color: blue;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+.row {
+    grid-template-columns: 1fr 1fr 1fr;  
+}    
+.element{
+    color:green;  
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .row {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;  
+    }    
+    .element{
+        color: red; 
+    }
+}
+    
