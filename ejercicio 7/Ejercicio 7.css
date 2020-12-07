@@ -71,7 +71,7 @@ div.contenedor header .links {
 div.contenedor section.main {
 	background:#fff;
 	padding: var(--espacio);
-
+	flex-direction:row;
 	display: flex;	
 	flex: 1 1 70%;
 }
@@ -147,4 +147,41 @@ div.contenedor footer .social a {
 	text-align: center;
 	padding: 0.7em;
 	flex-grow: 1;
+}
+
+@media screen and (max-width: 1001px) {
+	div.contenedor section.main {
+		flex-direction:column;
+	}	
+}
+
+@media screen and (max-width: 801px) {
+	.contenedor {
+		flex-direction: column;
+	}
+	div.contenedor header {
+		align-items: center;
+		flex-direction:column;
+	}
+	div.contenedor header .links {
+		align-self: stretch;
+	}
+	div.contenedor aside {
+		flex-direction:row;
+	}
+	div.contenedor footer {
+		justify-content:space-around;
+	}	 
+}
+
+@media screen and (max-width: 601px) {
+    div.contenedor aside {
+		flex-direction:column;
+	}
+	div.contenedor footer {
+		align-items: center;
+		flex-direction: column;
+		padding-bottom: 0;
+	}	 
+	
 }
