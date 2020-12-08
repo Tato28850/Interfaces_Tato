@@ -51,6 +51,7 @@ div.container aside {
   flex: 100%;
   }
   div.container aside{
-    flex: 100;
+    /* sin el % tb funciona */
+    flex: 100%;
   }
 }
