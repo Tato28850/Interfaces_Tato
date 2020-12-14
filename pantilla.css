@@ -1,0 +1,136 @@
+*{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+html{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    min-height: 100%;
+    background-image: url(img/dummy-img.png);
+    background-size:cover ;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    width: 70%;
+    min-height: 100%;
+      
+}
+#cabecera{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-end;
+    justify-content:space-between;
+    width: 100%;
+    height: 25em;
+    background-image:url(img/simple-house-01.jpg);
+    color: white; 
+}
+#menu , #logo{
+    margin: 2em;
+}
+
+#logo{
+    flex-direction:row;
+    width: 30%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.welcometext, .plato > p{
+    color:rgb(88, 88, 88);    
+}
+.welcometext{
+    width: 600px;
+    position: relative; 
+}
+.menu{
+    list-style: none;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+#menu>ul>li>.link-active{
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+#menu>#vinculos-cabezera>.menu a:hover{
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+#menu>ul>li>a{
+    color: white;  
+    text-decoration: none;  
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-plato a:link, .menu-plato a:visited {
+    background-color: white;
+    color:#207754;
+    border: 2px solid#207754;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#vinculos-menu{
+    width:26em;
+}
+.menu-plato{
+    width: 7em;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+.menu-plato a:hover, .menu-plato a:active {
+    background-color: #207754;
+    color: white;
+}
+#vinculos-menu-ul>.menu-plato>.link-active2 {
+    background-color: #207754;
+    color: white;
+}
+.welcome , .welcometext{
+    text-align: center;
+}
+
+.listaplatos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    width: 85%;
+    height: 55em;
+}
+.plato >div> img {
+    max-width: 100%;
+    object-fit:contain;
+}
+.plato > div{
+    width: 100%;
+    height: 60%;
+}
+.plato >div > h4{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #1b6894;
+    margin-bottom: 15px;
+}
+.plato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 23%;
+    height: 40%;
+}
+.precio{
+    color: #2f956cf5;
+    font-size: 1.25em;
+    font-weight: 500;
+}
