@@ -1,0 +1,12 @@
+.grid{
+    color: white;
+    background-color: orange;
+    padding: 1em;
+    border: 1px solid white;
+}
+.contenedor{
+    display: grid;
+}
+.option1 {
+    grid-template-columns: repeat(7, minmax(6rem, 1fr));
+}
