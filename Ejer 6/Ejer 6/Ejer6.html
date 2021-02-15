@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+    <style>
+   
+    div {
+        width: 200px;
+        height: 200px;
+        background-image: url("images1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        animation-name: assasin;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes assasin {
+        0%   {background-image: url("images1.png");}
+        25%  {background-image: url("images2.png");}
+        50%  {background-image: url("images3.png");}
+        75% {background-image: url("images4.png");}
+        100% {background-image: url("images1.png");}
+      }
+    </style>
+</head>
+
+<body>
+    
+    <div></div>
+
+</body>
+</html>
