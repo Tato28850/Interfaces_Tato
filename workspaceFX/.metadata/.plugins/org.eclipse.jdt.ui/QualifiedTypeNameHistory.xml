@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="javafx.fxml.FXMLLoader"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.ChoiceBox"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Separator"/>
 </qualifiedTypeNameHistroy>
