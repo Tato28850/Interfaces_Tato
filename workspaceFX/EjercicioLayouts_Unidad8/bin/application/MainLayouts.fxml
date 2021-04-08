@@ -215,9 +215,9 @@
                         <CheckBox allowIndeterminate="true" indeterminate="true" mnemonicParsing="false" text="Electron" />
                      </children>
                   </StackPane>
-                  <ListView prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <ListView fx:id="listV" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" />
-                  <ChoiceBox fx:id="ChoiceBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <ChoiceBox fx:id="ChoiceBox" prefWidth="150.0" value="Select a value..." GridPane.columnIndex="1" GridPane.rowIndex="6" />
                </children>
                <padding>
                   <Insets left="30.0" />
